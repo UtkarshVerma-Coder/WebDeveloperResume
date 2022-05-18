@@ -5,11 +5,7 @@ body{
     
 }
 
-/* Main Content  */
-/* .maincontent{
-    display: grid;
-    place-items: center;
-} */
+/* Main Content */
 
 .maincontent{
     display: flex;
@@ -48,3 +44,37 @@ body{
     border-radius: 3px;
 
 }
+
+
+
+/* Options to choose btw */
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.opt{
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    color: white;
+}
+.opt{
+    cursor: pointer;
+
+}
+.opt::before{
+   content: "";
+   bottom: -3px;
+   position: absolute;
+   height: 2px;
+   background-color: aqua;
+   transition: width 0.35s ease-out;
+}
+.opt:hover::before{
+    width: 100%;
+}
+
+
+/* Options to choose btw */
