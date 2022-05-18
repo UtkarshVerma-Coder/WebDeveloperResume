@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="src\style.css">
 
 
-
     <!-- Google Font -->
    
 
@@ -20,28 +19,60 @@
 
 </head>
 <body>
-
-
-<!-- Main Content      -->
-<div class="maincontent">
+   
+ 
+  
+    <!-- Main xContent      -->
+<!-- <!-- <div class="home" id="homepage"> -->
+<div  id="maincont" class="maincontent">
     <div class="name">
         <h3> Hello I'm </h3>
         <h1> Utkarsh <br> Verma.</h1>
         <div class="intro">
             <p class="simpletextintro"><button>UI</button> &  <button>UX</button> deziner from India. <br> <br>  "Love to work with pixels to make you visit as flat as a pancake and effortless"   </p>
         </div>
-    </div>
-    
+    </div>    
 </div>
 <!-- Main Content      -->
 
 
 
-<!-- Options to switch btw -->
 
+
+
+
+
+<div class="about" id="aboutpage">
+        <div class="aboutcontent">
+            <p>Hello, I am Utkarsh Verma, and I come from Uttar Pradesh India, I love working with Pixel, basically, I am a Frontend Web Developer and UI UX Designer.</p>
+        </div>
+        <div class="contact">
+            <div class="twtr">
+                <img height="20px" src="img\twitter.png">
+                <p> @Utkarsh_Verma_</p> <br>
+            </div>
+            <button onclick="window.open('https://twitter.com/Utkarsh_Verma_')" class="followbutton">Follow</button>
+            <br>
+            <div class="twtr">
+                <img height="20px" src="img\githublogo.png">
+                <p> @Utkarsh_Verma_</p> <br>
+            </div>
+         <button onclick="window.open('https://github.com/UtkarshVerma-Coder')" class="followbutton">GitHub</button>
+
+
+
+    </div>
+        
+       
+</div>
+
+ <!-- Contact Box -->
+        
+
+<!-- Options to switch btw -->
 <div class="options">
-    <div class="opt" id="home">Home</div>
-    <div class="opt" id="about">About</div>
+    <div onclick="home()" class="opt" id="home">Home</div>
+    <div onclick="about()" class="opt" id="about">About</div>
     <div class="opt" id="skills">Skills</div>
     <div class="opt" id="projects">Projects</div>
 
@@ -49,9 +80,7 @@
 <!-- Options to switch btw -->
 
 
-
-
-
+<script src="src/script.js"></script>
 
 
 </body>

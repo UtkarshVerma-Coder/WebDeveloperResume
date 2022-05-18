@@ -5,7 +5,16 @@ body{
     
 }
 
-/* Main Content */
+/* Main */
+
+
+/* .options{
+    position: fixed;
+    left: 0;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+} */
 
 .maincontent{
     display: flex;
@@ -78,3 +87,56 @@ body{
 
 
 /* Options to choose btw */
+
+
+
+
+
+
+
+/* About Page  */
+
+.about{
+    display: none;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+/* ContactBox Inside About Page */
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Twitter ID */
+.twtr{
+    display: flex;
+    flex-direction: row;
+}
+.twtr img{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.followbutton{
+    background-color: black;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* Twitter ID */
+
+
+
+/* Github ID */
+
+
+
+/* About Page  */
